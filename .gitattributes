@@ -12,7 +12,6 @@
 # `git lfs track <relative-path>`) for each file it routes to R2 — any format,
 # including images and arbitrary binaries. So this file ships minimal below the
 # fence; the skill populates the per-file entries.
-
 # Fenced exception (storage decision, po-g9y): the bundled SAMPLE data committed
 # under public/data/ (a few KB each) stays INLINE so `create-portaljs` and
 # `npm run dev` work offline with zero credentials. Keep these as plain text in
@@ -23,3 +22,4 @@ public/data/** -filter -diff -merge text
 # keep it inline like the CSVs, but override `text` so git never applies EOL
 # normalization, which would corrupt it.
 public/data/*.parquet -filter -diff -merge -text
+data/world-bank-gdp.csv filter=lfs diff=lfs merge=lfs -text
