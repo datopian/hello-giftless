@@ -24,3 +24,4 @@ public/data/** -filter -diff -merge text
 public/data/*.parquet -filter -diff -merge -text
 data/world-bank-gdp.csv filter=lfs diff=lfs merge=lfs -text
 data/world-bank-population.csv filter=lfs diff=lfs merge=lfs -text
+data/nyc-green-taxi.csv filter=lfs diff=lfs merge=lfs -text
