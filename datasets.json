@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "slug": "world-bank-gdp",
+    "namespace": "worldbank",
+    "name": "World Bank GDP",
+    "description": "Gross domestic product (current US$) for the world's largest economies, 2023. Source: World Bank national accounts data.",
+    "file": "https://data.portaljs.com/lfs/datopian/hello-giftless/c8a5a8c3c8d45652049a02a808e46ed8d533dc02b701c4f4bde691602ea73c5b",
+    "format": "csv"
+  },
+  {
+    "slug": "world-bank-population",
+    "namespace": "worldbank",
+    "name": "World Bank Population",
+    "description": "Total population for the world's most populous countries, 2023. Source: World Bank (SP.POP.TOTL).",
+    "file": "https://data.portaljs.com/lfs/datopian/hello-giftless/f1559fc7073c445d519271fee7b01bdd7b977906ba465170586bcc7b1910adea",
+    "format": "csv"
+  },
+  {
+    "slug": "nyc-green-taxi",
+    "namespace": "nyc",
+    "name": "NYC Green Taxi Trips",
+    "description": "Sample of NYC green taxi trip records — pickup/dropoff times, distance, fares, and tips. Source: NYC Taxi & Limousine Commission via NYC Open Data.",
+    "file": "https://data.portaljs.com/lfs/datopian/hello-giftless/892e71f51f351f6f4ce4ed39bd06048cb60dff0f31bb789aef7c82b9b38bd6d6",
+    "format": "csv"
+  }
+]
